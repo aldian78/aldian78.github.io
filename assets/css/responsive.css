@@ -1,0 +1,845 @@
+@media only screen and (max-width: 350px) {
+    .header-atas .text {
+        font-size: 0.75rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .items-wrapper .section-info .img-section-info {
+        width: 15%;
+        height: auto;
+    }
+
+    .items-wrapper .section-info .section p {
+        font-size: 0.875rem;
+    }
+
+    .slick-prev {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .slick-next {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .items-wrapper .products .card .card-body h4 {
+        font-size: 0.938rem;
+    }
+
+    .items-wrapper .products .card .card-body p {
+        font-size: 0.813rem;
+    }
+
+    .items-wrapper .products .card .card-body .ahref-details {
+        width: 100%;
+        height: 40px;
+    }
+
+    .items-wrapper .products .card .card-body .ahref-details a {
+        font-size: 0.813rem;
+        padding: 5px 10px;
+        word-wrap: break-word;
+    }
+
+    .items-wrapper .products .view-products {
+        margin-top: 10px;
+    }
+
+    .items-wrapper .products .view-products .view-all-products {
+        font-size: 0.813rem;
+        padding: auto;
+    }
+
+    .items-wrapper .banner-questions .whatsapp-questions {
+        margin-bottom: 9px;
+    }
+
+    .items-wrapper .banner-questions .wa-questions {
+        text-decoration: none;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        width: 150px;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+    .items-wrapper .banner-questions .wa-img {
+        width: 30px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .items-wrapper .banner-questions .wa-questions span {
+        font-size: 0.938rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .stinky-footer .footer-one {
+        margin-top: 20px;
+    }
+
+    .stinky-footer .footer-one .sub-text {
+        font-size: 1.25rem;
+        margin-top: 30px;
+    }
+
+    .stinky-footer .footer-one .icon-footer {
+        width: 50px;
+        height: 50px;
+        line-height: 46px;
+        margin-right: 15px;
+    }
+
+    .stinky-footer .footer-one .fab {
+        margin-bottom: 10px;
+    }
+
+    .stinky-footer .footer-one .icon-footer:hover .fa-facebook {
+        width: 50px;
+        height: 50px;
+        line-height: 46px;
+    }
+
+    .stinky-footer .footer-one .icon-footer:hover .fa-instagram {
+        width: 50px;
+        height: 50px;
+        line-height: 46px;
+    }
+
+    .stinky-footer .footer-one .icon-footer:hover .fa-whatsapp {
+        width: 50px;
+        height: 50px;
+        line-height: 46px;
+    }
+
+    .stinky-footer .footer-items h4 {
+        font-size: 1.25rem;
+        margin-bottom: 25px;
+    }
+
+    .stinky-footer .footer-items p {
+        font-size: 0.875rem;
+    }
+
+    .stinky-footer .subscribe-items h4 {
+        font-size: 1.25rem;
+    }
+
+    .stinky-footer .copyright h4 {
+        font-family: "Poppins light";
+        font-size: 0.75rem;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .mini-banner .mini-banner-caption h5 {
+        font-size: 1.25rem;
+    }
+
+    .mini-banner .mini-banner-caption p {
+        font-size: 1.125rem;
+    }
+
+    .items-wrapper .products .filters .search h5 {
+        font-size: 1.125rem;
+    }
+
+    .items-wrapper .products .sidebar-products .input-search,
+    .items-wrapper .products .sidebar-products .input-search:focus {
+        width: 83%;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+
+    .items-wrapper .sidebar-products .sidebar-categories {
+        width: 100%;
+        height: 420px;
+        margin-bottom: 25px;
+    }
+
+    .items-wrapper .sidebar-products .sidebar-categories .sidebar-text {
+        font-size: 1.125rem;
+        margin-bottom: 20px 0;
+    }
+
+    .items-wrapper .sidebar-products .sidebar-mini-products h4 {
+        font-size: 0.875rem;
+    }
+
+    .items-wrapper .sidebar-products .sidebar-mini-products a {
+        font-size: 0.813rem;
+    }
+
+    .items-wrapper .about .visi-misi {
+        margin-left: 10px;
+    }
+
+    .items-wrapper .details-products .title-details h2 {
+        font-size: 1.625rem;
+    }
+
+    .items-wrapper .details-products .title-details h5 {
+        font-size: 1.25rem;
+    }
+
+    .items-wrapper .details-products .button-details .qty-wrapper {
+        width: 172px;
+        height: auto;
+    }
+
+    .items-wrapper .details-products .button-details .add-cart {
+        padding: 12px 15px;
+        margin-left: 20px;
+    }
+
+    .items-wrapper .details-products .description-details p {
+        font-size: 1rem;
+    }
+
+    .items-wrapper .details-products .reviews-details .username-reviews {
+        font-size: 1.125rem;
+    }
+
+    .items-wrapper .details-products .reviews-details .reviews {
+        font-size: 0.875rem;
+    }
+
+    .items-wrapper .details-products .leave-reviews .button-reviews {
+        width: 130px;
+        height: 47px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* PAGE CART */
+    .items-wrapper .cart-page .items-cart .img-cart {
+        width: 50%;
+        height: 100%;
+    }
+
+    .items-wrapper .cart-page .items-cart .sub-cart {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .items-wrapper .cart-page .items-cart .bottom-cart {
+        display: inline-block;
+    }
+
+    .items-wrapper .cart-page .items-cart .quantity-cart {
+        margin-bottom: 10px;
+    }
+
+    .items-wrapper .cart-page .items-cart .sub-total-qty h4 {
+        font-family: "Poppins regular";
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .total-cart .count-total .price {
+        font-size: 1rem;
+    }
+
+    .total-cart .count-total .btn-checkout {
+        font-size: 1rem;
+    }
+
+    /* END PAGE CART */
+
+    /* PAYMENT BANKING */
+    .items-wrapper .payment-page .banking-payment .form-check {
+        font-size: 1rem;
+        margin: 30px 10px;
+    }
+
+    /* END PAYMENT BANKING */
+}
+
+@media only screen and (max-width: 576px) {
+    .header-atas .text {
+        font-size: 0.813rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .slick-prev {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .slick-next {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .items-wrapper .banner-questions .whatsapp-questions {
+        margin-top: 10px;
+        margin-bottom: 9px;
+    }
+
+    .items-wrapper .banner-questions .wa-questions {
+        width: 150px;
+        height: 43px;
+    }
+
+    .items-wrapper .banner-questions .wa-img {
+        width: 30px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 4px;
+    }
+
+    .items-wrapper .banner-questions .wa-questions span {
+        margin-top: 8px;
+    }
+
+    .mini-banner .mini-banner-caption h5 {
+        font-size: 1.25rem;
+    }
+
+    .mini-banner .mini-banner-caption p {
+        font-size: 1.125rem;
+    }
+
+    .items-wrapper .sidebar-products .sidebar-mini-products h4 {
+        font-size: 0.875rem;
+    }
+
+    .items-wrapper .sidebar-products .sidebar-mini-products a {
+        font-size: 0.813rem;
+    }
+
+    .items-wrapper .about .out-story h3 {
+        margin: 20px 0;
+    }
+
+    .items-wrapper .about .visi-misi {
+        margin-left: 15px;
+    }
+
+    .items-wrapper .details-products .title-details h2 {
+        font-size: 1.625rem;
+    }
+
+    .items-wrapper .details-products .title-details h5 {
+        font-size: 1.25rem;
+    }
+
+    .items-wrapper .details-products .button-details .qty-wrapper {
+        width: 172px;
+        height: auto;
+    }
+
+    .items-wrapper .details-products .button-details .add-cart {
+        padding: 12px 15px;
+        margin-left: 20px;
+    }
+
+    .items-wrapper .details-products .description-details p {
+        font-size: 1rem;
+    }
+
+    .items-wrapper .details-products .reviews-details .username-reviews {
+        font-size: 1.125rem;
+    }
+
+    .items-wrapper .details-products .reviews-details .reviews {
+        font-size: 0.875rem;
+    }
+
+    .items-wrapper .details-products .leave-reviews .button-reviews {
+        width: 130px;
+        height: 47px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* PAGE CART */
+    .items-wrapper .cart-page .items-cart .img-cart {
+        width: 50%;
+        height: 100%;
+    }
+
+    .items-wrapper .cart-page .items-cart .sub-cart {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .items-wrapper .cart-page .items-cart .bottom-cart {
+        display: inline-block;
+    }
+
+    .items-wrapper .cart-page .items-cart .quantity-cart {
+        margin-bottom: 10px;
+    }
+
+    .items-wrapper .cart-page .items-cart .sub-total-qty h4 {
+        font-family: "Poppins regular";
+        font-size: 1.125rem;
+        margin-top: 10px;
+    }
+
+    .total-cart .count-total .price {
+        font-size: 1rem;
+    }
+
+    .total-cart .count-total .btn-checkout {
+        font-size: 1rem;
+    }
+
+    /* END PAGE CART */
+}
+
+@media only screen and (min-width: 768px) {
+    .items-wrapper .img-hero-wrapper img {
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .items-wrapper .unit-hero .hero-text {
+        font-size: 1.875rem;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .items-wrapper .unit-hero .sub-hero-text {
+        font-family: "Poppins medium";
+        font-size: 1.125rem;
+        line-height: 36px;
+        width: 80%;
+        text-align: justify;
+        word-wrap: break-word;
+    }
+
+    .items-wrapper .unit-hero .hero-button {
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    .slick-prev {
+        margin-top: 10px;
+    }
+
+    .slick-next {
+        margin-top: 10px;
+    }
+
+    .stinky-footer .footer-one .icon-footer {
+        margin-bottom: 20px;
+    }
+
+    .stinky-footer .footer-one .fab {
+        margin-bottom: 15px;
+    }
+
+    .stinky-footer .subscribe-items .subscribe {
+        width: 100%;
+        height: 45px;
+    }
+
+    .stinky-footer .icon-bank .icon-virtual {
+        width: 7%;
+        height: auto;
+    }
+
+    .items-wrapper .banner-questions .text-questions {
+        margin-top: 5px;
+        margin-bottom: 45px;
+    }
+
+    .items-wrapper .banner-questions .whatsapp-questions {
+        margin-top: 105px;
+        margin-bottom: 18px;
+    }
+
+    .items-wrapper .banner-questions h3 {
+        font-size: 1.875rem;
+        margin-top: 90px;
+        text-align: left;
+    }
+
+    .items-wrapper .banner-questions p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .items-wrapper .banner-questions .wa-questions {
+        float: right;
+    }
+
+    .items-wrapper .products .sidebar-products .items-search {
+        margin-top: 75px;
+        margin-bottom: 26px;
+    }
+
+    .items-wrapper .products .sidebar-products .input-search,
+    .items-wrapper .products .sidebar-products .input-search:focus {
+        width: 75%;
+        height: 45px;
+    }
+
+    .items-wrapper .sidebar-products .sidebar-mini-products h4 {
+        font-family: "Poppins regular";
+        font-size: 0.813rem;
+        font-weight: 600;
+        word-break: break-all;
+    }
+
+    .items-wrapper .sidebar-products .sidebar-mini-products a {
+        font-family: "Poppins medium";
+        font-size: 0.75rem;
+        color: #10AC84;
+        text-decoration: none;
+    }
+
+    .items-wrapper .details-products .title-details h2 {
+        font-size: 1.375rem;
+    }
+
+    .items-wrapper .details-products .title-details h5 {
+        font-size: 1.25rem;
+    }
+
+    .items-wrapper .details-products .button-details .qty-wrapper {
+        width: 172px;
+        height: auto;
+    }
+
+    .items-wrapper .details-products .button-details .add-cart {
+        padding: 12px 15px;
+    }
+
+    .items-wrapper .details-products .description-details p {
+        font-size: 1rem;
+    }
+
+    .items-wrapper .details-products .reviews-details .username-reviews {
+        font-size: 1.125rem;
+    }
+
+    .items-wrapper .details-products .reviews-details .reviews {
+        font-size: 0.875rem;
+    }
+
+    .items-wrapper .details-products .leave-reviews .button-reviews {
+        width: 130px;
+        height: 47px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .items-wrapper .contact .items-contact h4 {
+        font-size: 0.875rem;
+    }
+
+    .items-wrapper .contact .items-contact p {
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-atas {
+        background-color: #10AC84;
+        max-width: 100%;
+        height: 40px;
+    }
+
+    .header-atas .text {
+        font-size: 0.875rem;
+        margin: 2px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        margin-top: 15px;
+    }
+
+    .navbar-light .navbar-nav .nav-item .menu-navbar {
+        margin-left: 20px;
+        padding: 0;
+    }
+
+    .navbar-light .nav-item .menu-navbar:hover {
+        color: #10AC84;
+        margin-left: 20px;
+    }
+
+    .navbar-light .nav-item:hover .menu-navbar {
+        background-color: #fff;
+        display: block;
+        border-radius: 2px;
+        margin-left: 20px;
+    }
+
+    .navbar-light .nav-item a.active {
+        color: #10AC84;
+        background-color: #fff;
+        display: block;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .items-wrapper .img-hero-wrapper img {
+        margin-top: 20px;
+        width: 70%;
+        height: auto;
+        float: right;
+        display: block;
+        margin-left: 0;
+        transform: translate(0);
+    }
+
+    .items-wrapper .unit-hero .hero-text {
+        margin-top: 95px;
+        margin-bottom: 5px;
+    }
+
+    .items-wrapper .section-info .section {
+        margin-top: 50px;
+    }
+
+    .items-wrapper .section-info .section p {
+        font-size: 0.813rem;
+        text-align: center;
+        top: 0;
+        padding: 5px 0;
+    }
+
+    .slick-prev {
+        margin-left: 11px;
+        margin-top: 9px;
+    }
+
+    .slick-next {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .items-wrapper .banner-questions .banner {
+        left: 0;
+        right: 0;
+        margin-top: 60px;
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .items-wrapper .banner-questions .bg-overlay {
+        width: 100%;
+        height: 250px;
+        margin-top: 60px;
+    }
+
+    .items-wrapper .banner-questions .text-questions h3 {
+        font-size: 3rem;
+        margin-top: 130px;
+        margin-bottom: 16px;
+        text-align: left;
+    }
+
+    .items-wrapper .banner-questions .text-questions {
+        margin-bottom: 65px;
+    }
+
+    .items-wrapper .banner-questions .text-questions p {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .items-wrapper .banner-questions .wa-questions {
+        width: 250px;
+        height: 70px;
+        margin-top: 50px;
+    }
+
+    .items-wrapper .banner-questions .wa-img {
+        width: 50px;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .items-wrapper .banner-questions .wa-questions span {
+        font-size: 1.563rem;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .items-wrapper .events {
+        margin-bottom: 48px;
+    }
+
+    .stinky-footer {
+        position: sticky;
+        top: 100%;
+        bottom: 0;
+        background-color: #10AC84;
+        width: 100%;
+        height: auto;
+    }
+
+    .stinky-footer .footer-one {
+        margin-top: 52px;
+    }
+
+    .stinky-footer .footer-one .img-footer {
+        margin-left: -10px;
+    }
+
+    .stinky-footer .footer-one .sub-text {
+        font-size: 1.875rem;
+    }
+
+    .stinky-footer .footer-one p {
+        font-size: 0.938rem;
+    }
+
+    .stinky-footer .footer-one .icon-footer {
+        margin-top: 18px;
+        margin-bottom: 30px;
+    }
+
+    .stinky-footer .footer-items {
+        margin-top: 83px;
+        padding: 0 15px;
+    }
+
+    .stinky-footer .footer-items h4 {
+        font-family: "Merriweather";
+        font-size: 1.5rem;
+        color: #fff;
+        margin-bottom: 27px;
+    }
+
+    .stinky-footer .footer-items i {
+        font-size: 1.25rem;
+        margin-right: 10px;
+        width: 20px;
+        height: auto;
+    }
+
+    .stinky-footer .subscribe-items {
+        margin-top: 85px;
+    }
+
+    .stinky-footer .icon-bank {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .stinky-footer .icon-bank .icon-virtual {
+        width: 5%;
+        height: auto;
+    }
+
+    .stinky-footer .copyright {
+        width: 100%;
+        height: 50px;
+        background: #109C78;
+        margin-top: 20px;
+    }
+
+    .stinky-footer .copyright h4 {
+        font-size: 1rem;
+        padding: 15px 0;
+    }
+
+    .items-wrapper .products .sidebar-products {
+        float: right;
+        position: relative;
+    }
+
+    .items-wrapper .products .sidebar-products .items-search {
+        margin-top: 75px;
+        margin-bottom: 25px;
+    }
+
+    .items-wrapper .products .sidebar-products .input-search,
+    .items-wrapper .products .sidebar-products .input-search:focus {
+        width: 80%;
+        height: 44px;
+    }
+
+    .items-wrapper .details-products .title-details h2 {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .items-wrapper .details-products .title-details h5 {
+        font-size: 1.375rem;
+    }
+
+    .items-wrapper .details-products .button-details .qty-wrapper {
+        width: 172px;
+        height: auto;
+    }
+
+    .items-wrapper .details-products .button-details .add-cart {
+        padding: 12px 15px;
+        margin-left: 25px;
+    }
+
+    .items-wrapper .details-products .description-details p {
+        font-size: 1rem;
+    }
+
+    .items-wrapper .details-products .reviews-details .username-reviews {
+        font-size: 1.125rem;
+    }
+
+    .items-wrapper .details-products .reviews-details .reviews {
+        font-size: 0.875rem;
+    }
+
+    .items-wrapper .details-products .leave-reviews .button-reviews {
+        width: 130px;
+        height: 47px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .items-wrapper .contact .items-contact h4 {
+        font-size: 1.125rem;
+    }
+
+    .items-wrapper .contact .items-contact p {
+        font-size: 1rem;
+    }
+
+    /* PAGE CART */
+    .items-wrapper .cart-page .items-cart .img-cart {
+        width: 70%;
+        height: 100%;
+    }
+
+    .items-wrapper .cart-page .items-cart .sub-cart {
+        text-align: left;
+        margin-top: 25px;
+    }
+
+    .items-wrapper .cart-page .items-cart .bottom-cart {
+        margin-top: 30px;
+    }
+
+    .items-wrapper .cart-page .items-cart .sub-total-qty h4 {
+        font-family: "Poppins regular";
+        font-size: 1.125rem;
+        margin-top: 6px;
+    }
+
+    /* END PAGE CART */
+}

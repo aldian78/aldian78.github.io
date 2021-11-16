@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANISAFLORA</title>
+
+    <link href="img/image/logo-anisa.png" rel="icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/Newstyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-light header-atas">
+            <div class="container">
+                <p class="text">We Provide Best Plants and Ship Around the World</p>
+                <p class="text">@Anisaflora | +62 08194756484</p>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-wrapper">
+            <div class="container">
+                <img class="img-navbar" src="img/image/logo-anisa.png" alt="anisaflora">
+                <!-- <a class="title-nav" href="#">Anisaflora</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2">
+                        <!--me-auto ganti ms-auto (margin-start) untuk space between -->
+                        <li class="nav-item">
+                            <a class="menu-navbar" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-navbar" href="produk.html">Shop Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-navbar" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-navbar" href="#">How to Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-navbar active" href="contact.html">Contacts Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+    </header>
+
+    <section class="mini-banner">
+        <img src="img/hero-banner/banner-contact.png" alt="" class="img-mini-banner">
+        <div class="mini-banner-overlay"></div>
+        <div class="mini-banner-caption text-center">
+            <h5>Do not hesitate to contact us</h5>
+            <p>Well selected and cared for plants</p>
+        </div>
+    </section>
+
+    <section class="items-wrapper">
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="items-contact">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Call : +62 08194756484</h4>
+                            <p>Monday - Saturday (9am - 9pm)</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="items-contact">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email : Anisaflora@gmail.com</h4>
+                            <p>Web : www.Anisaflora.com</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="items-contact">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Location : Graha asri sukodono</h4>
+                            <p>Sidoarjo - Jawa timur</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 mt-5">
+                        <div id="map"></div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="form-contact mt-5">
+                            <form class="row g-3" action="#">
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="inputEmail4"
+                                        placeholder="exampleproject">
+                                    <span><i class="error-msg">*Your Name is required</i></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Email Adress</label>
+                                    <input type="email" class="form-control" id="inputPassword4"
+                                        placeholder="exampleproject@gmail.com">
+                                    <span><i class="error-msg">*Email Address is required</i></span>
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputAddress" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="inputAddress"
+                                        placeholder="How to Orders ?">
+                                    <span><i class="error-msg">*Subject is required</i></span>
+                                </div>
+                                <div class="col-12">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <span><i class="error-msg">*Message is required</i></span>
+                                </div>
+                                <button type="button" class="button-reviews ms-2" id="btn-submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="banner-questions">
+                <img src="img/hero-banner/chatt.png" class="banner">
+                <div class="bg-overlay"></div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 text-questions">
+                        <h3>Questions about our plants ?</h3>
+                        <p>Don't hesitate to ask about this plant, contact us now!</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 whatsapp-questions">
+                        <a class="wa-questions" href="#">
+                            <img src="img/image/Whatsapp.png" class="wa-img">
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="stinky-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer-one">
+                        <img class="img-footer" src="img/image/logo-anisa-footer.png" alt="">
+                        <span class="sub-text">
+                            Annisaflora
+                        </span>
+
+                        <p>Established since the beginning of 2019, which focuses on selling the best plants at
+                            affordable
+                            prices. customer satisfaction is our motto.</p>
+
+                        <span class="icon-footer">
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </span>
+                        <span class="icon-footer">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </span>
+                        <span class="icon-footer">
+                            <a href="#">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-items">
+                        <h4>Infomation</h4>
+                        <p>About us</p>
+                        <p>How to orders</p>
+                        <p>FAQs</p>
+                        <p>Contact us</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer-items">
+                        <h4>Contact Us</h4>
+                        <p>
+                            <i class="fab fa-whatsapp"></i>
+                            (+62) 8147596884
+                        </p>
+                        <p>
+                            <i class="fab fa-facebook-f"></i>
+                            Anisaflorasda
+                        </p>
+                        <p>
+                            <i class="fab fa-instagram"></i>
+                            Anisaflorasidoarjo
+                        </p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Graha asri sukodono
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="subscribe-items">
+                        <h4>Support Us</h4>
+                        <form>
+                            <input class="subscribe" placeholder="example@gmail.com">
+                            <button class="btn btn-subscribe">
+                                <span>
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </span>
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="icon-bank">
+                <img src="img/image/BCA.png" class="icon-virtual">
+                <img src="img/image/MANDIRI.png" class="icon-virtual">
+                <img src="img/image/BNI.png" class="icon-virtual">
+                <img src="img/image/BRI.png" class="icon-virtual">
+            </div>
+        </div>
+        <div class="copyright">
+            <h4>Copyright © 2021 All rights reserved. | By Aldiandwiw</h4>
+        </div>
+    </footer>
+
+    <section class="cart">
+        <div class="cart-wrapper">
+            <a href="cart.html" class="items-cart">
+                <span class="count-cart">0</span>
+                <i class="fas fa-shopping-basket"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="page-to-top">
+        <div class="pagetoTop-wrapper">
+            <button type="button" class="page-scroll" id="pagetoTop" onclick="topFunction()"><i
+                    class="fas fa-arrow-alt-circle-up scroll"></i></button>
+        </div>
+    </section>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script>
+    // GOOGLE MAPS
+    function initialize() {
+        var propertiPeta = {
+            center: new google.maps.LatLng(-7.4091315, 112.6682987),
+            zoom: 19,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+        };
+
+        var peta = new google.maps.Map(document.getElementById("map"), propertiPeta, marker);
+
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-7.4091315, 112.6682987),
+            map: peta
+        });
+    }
+
+    // event jendela di-load  
+    google.maps.event.addDomListener(window, 'load', initialize);
+    // END GOOGLE MAPS
+</script>
+<script>
+    const error = document.getElementsByClassName('error-msg');
+
+    for (var i = 0; i < error.length; i++) {
+        error[i].style.display = "none";
+    }
+    var check = document.getElementById('btn-submit');
+    check.onclick = function () {
+        const block = document.getElementsByClassName('error-msg');
+
+        for (var i = 0; i < block.length; i++) {
+            block[i].style.display = "block";
+        }
+    }
+</script>
+
+</html>

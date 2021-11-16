@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANISAFLORA</title>
+
+    <link href="img/image/logo-anisa.png" rel="icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css"
+        integrity="sha512-uHuCigcmv3ByTqBQQEwngXWk7E/NaPYP+CFglpkXPnRQbSubJmEENgh+itRDYbWV0fUZmUz7fD/+JDdeQFD5+A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/Newstyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-light header-atas">
+            <div class="container">
+                <p class="text">We Provide Best Plants and Ship Around the World</p>
+                <p class="text">@Anisaflora | +62 08194756484</p>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-wrapper">
+            <div class="container">
+                <img class="img-navbar" src="img/image/logo-anisa.png" alt="anisaflora">
+                <!-- <a class="title-nav" href="#">Anisaflora</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2">
+                        <!--me-auto ganti ms-auto (margin-start) untuk space between -->
+                        <li class="nav-item">
+                            <a class="menu-navbar active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-navbar" href="produk.html">Shop Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-navbar" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-navbar" href="#">How to Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu-navbar" href="contact.html">Contacts Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+    </header>
+
+    <section class="mini-banner">
+        <img src="img/hero-banner/banner-cart.png" alt="" class="img-mini-banner">
+        <div class="mini-banner-overlay"></div>
+        <div class="mini-banner-caption text-center">
+            <h5>Look forward to the plant of your choice</h5>
+            <p>Well selected and cared for plants</p>
+        </div>
+    </section>
+
+    <section class="items-wrapper">
+        <div class="payment-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="billing-details mb-4">
+                            <h3 class="title-cart">Billing Details</h3>
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="exampleproject">
+                                <span><i class="error-msg">*Full name is required</i></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="exampleproject@gmail.com">
+                                <span><i class="error-msg">*Email is required</i></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Number Phone</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="0812345678910">
+                                <span><i class="error-msg">*Phone is required</i></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Country / Region</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Indonesia">
+                                <span><i class="error-msg">*Country / Region is required</i></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">State / County</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Jawa Timur">
+                                <span><i class="error-msg">*State/County is required</i></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Town / City</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Sidoarjo">
+                                <span><i class="error-msg">*Town / City is required</i></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Street Addres</label>
+                                <input type="email" class="form-control mb-2" id="exampleFormControlInput1"
+                                    placeholder="No rumah dan nama jalan">
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Apartement, Kantor, Unit, Dll. (Opsional)">
+                                <span><i class="error-msg">*Street Address is required</i></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Postcode / ZIP</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="0615">
+                                <span><i class="error-msg">*Postcode / ZIP is required</i></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Additonal Information
+                                    (Optional)</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="your-order">
+                            <h3 class="title-cart">Your Orders</h3>
+
+                            <!-- <div class="mb-3"> -->
+                            <label for="exampleFormControlInput1" class="form-label">Delivery Service</label>
+                            <select class="select-custom-payment mb-3" aria-label="Default select example">
+                                <option selected>Select Delivery Service</option>
+                                <option value="1">JNE</option>
+                                <option value="2">JNT</option>
+                                <option value="3">TIKI</option>
+                                <option value="3">Sicepat</option>
+                            </select>
+                            <!-- </div> -->
+
+                            <div class="product-payment">
+                                <h3 class="title-cart">Product</h3>
+                                <div class="items-payment">
+                                    <div class="row">
+                                        <div class="col-md-7 col-6">
+                                            <h5>Alocasia Cuprea X 1</h5>
+                                        </div>
+                                        <div class="col-md-5 col-6">
+                                            <p>Rp. 150.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="total-payment mt-3">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h5>Sub Total</h5>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Rp. 150.000</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <h5>Shipping Conts</h5>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Rp. 15.000</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <h5>Total</h5>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Rp. 165.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banking-payment mt-4">
+                                    <div class="d-flex justify-content-between wrapper mb-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input me-3" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                BCA
+                                            </label>
+                                        </div>
+                                        <div class="img-banking">
+                                            <img src="img/image/BCA.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between wrapper mb-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input me-3" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                MANDIRI
+                                            </label>
+                                        </div>
+                                        <div class="img-banking">
+                                            <img src="img/image/MANDIRI.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between wrapper mb-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input me-3" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                BRI
+                                            </label>
+                                        </div>
+                                        <div class="img-banking">
+                                            <img src="img/image/BRI.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between wrapper mb-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input me-3" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                BNI
+                                            </label>
+                                        </div>
+                                        <div class="img-banking">
+                                            <img src="img/image/BNI.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button-payment">
+                                    <button id="btn-submit">PLACE ORDER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="banner-questions">
+                <img src="img/hero-banner/chatt.png" class="banner">
+                <div class="bg-overlay"></div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 text-questions">
+                        <h3>Questions about our plants ?</h3>
+                        <p>Don't hesitate to ask about this plant, contact us now!</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 whatsapp-questions">
+                        <a class="wa-questions" href="#">
+                            <img src="img/image/Whatsapp.png" class="wa-img">
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="stinky-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer-one">
+                        <img class="img-footer" src="img/image/logo-anisa-footer.png" alt="">
+                        <span class="sub-text">
+                            Annisaflora
+                        </span>
+
+                        <p>Established since the beginning of 2019, which focuses on selling the best plants at
+                            affordable
+                            prices. customer satisfaction is our motto.</p>
+
+                        <span class="icon-footer">
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </span>
+                        <span class="icon-footer">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </span>
+                        <span class="icon-footer">
+                            <a href="#">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-items">
+                        <h4>Infomation</h4>
+                        <p>About us</p>
+                        <p>How to orders</p>
+                        <p>FAQs</p>
+                        <p>Contact us</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer-items">
+                        <h4>Contact Us</h4>
+                        <p>
+                            <i class="fab fa-whatsapp"></i>
+                            (+62) 8147596884
+                        </p>
+                        <p>
+                            <i class="fab fa-facebook-f"></i>
+                            Anisaflorasda
+                        </p>
+                        <p>
+                            <i class="fab fa-instagram"></i>
+                            Anisaflorasidoarjo
+                        </p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Graha asri sukodono
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="subscribe-items">
+                        <h4>Support Us</h4>
+                        <form>
+                            <input class="subscribe" placeholder="example@gmail.com">
+                            <button class="btn btn-subscribe">
+                                <span>
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </span>
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="icon-bank">
+                <img src="img/image/BCA.png" class="icon-virtual">
+                <img src="img/image/MANDIRI.png" class="icon-virtual">
+                <img src="img/image/BNI.png" class="icon-virtual">
+                <img src="img/image/BRI.png" class="icon-virtual">
+            </div>
+        </div>
+        <div class="copyright">
+            <h4>Copyright © 2021 All rights reserved. | By Aldiandwiw</h4>
+        </div>
+    </footer>
+
+    <section class="cart">
+        <div class="cart-wrapper">
+            <a href="cart.html" class="items-cart">
+                <span class="count-cart">0</span>
+                <i class="fas fa-shopping-basket"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="page-to-top">
+        <div class="pagetoTop-wrapper">
+            <button type="button" class="page-scroll" id="pagetoTop" onclick="topFunction()"><i
+                    class="fas fa-arrow-alt-circle-up scroll"></i></button>
+        </div>
+    </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+    integrity="sha512-NqYds8su6jivy1/WLoW8x1tZMRD7/1ZfhWG/jcRQLOzV1k1rIODCpMgoBnar5QXshKJGV7vi0LXLNXPoFsM5Zg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.select-custom-payment').niceSelect();
+    });
+</script>
+<script>
+    const error = document.getElementsByClassName('error-msg');
+
+    for (var i = 0; i < error.length; i++) {
+        error[i].style.display = "none";
+    }
+    var btn = document.getElementById('btn-submit');
+    btn.onclick = function () {
+        const block = document.getElementsByClassName('error-msg');
+
+        for (var i = 0; i < block.length; i++) {
+            block[i].style.display = "block";
+        }
+    }
+</script>
+
+</html>
