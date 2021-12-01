@@ -15,6 +15,10 @@
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css"
         integrity="sha512-uHuCigcmv3ByTqBQQEwngXWk7E/NaPYP+CFglpkXPnRQbSubJmEENgh+itRDYbWV0fUZmUz7fD/+JDdeQFD5+A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,8 +26,10 @@
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/Newstyle.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css"> -->
 
-    <link rel="stylesheet" href="assets/css/Newstyle.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- <link rel="stylesheet" href="assets/css/Newstyle.css">
+    <link rel="stylesheet" href="assets/css/responsive.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/newResponsive.css">
 </head>
 
 <body>
@@ -87,7 +93,7 @@
                     <div class="col-lg-8 col-md-8 col-sm-12">
                         <div class="filters">
                             <div class="row">
-                                <div class="col-lg-7 search mt-2">
+                                <div class="col-lg-7 col-md-8 search mt-2">
                                     <h5>Search : <span>Aglaonema dragon</span></h5>
                                 </div>
                                 <div class="col-lg-5 box-filters mt-2">
@@ -101,6 +107,10 @@
                             </div>
                         </div>
                         <div class="row">
+                            <!-- jika untuk produk kosong maka tampilkan image  -->
+                            <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <img src=" img/produk/1.png" alt="" class="card-img-top">
+                            </div> -->
                             <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                                 <!-- tidak bisa menggunakan col-xs untuk layar > 575px //diganti dengan col-->
                                 <div class="card">
@@ -259,7 +269,10 @@
                             <h5 class="sidebar-text">Hoya</h5>
                             <h5 class="sidebar-text">Shyngonium</h5>
                             <h5 class="sidebar-text">Other plants</h5>
-
+                            <h5 class="sidebar-text">Scindacus</h5>
+                            <h5 class="sidebar-text">Hoya</h5>
+                            <h5 class="sidebar-text">Shyngonium</h5>
+                            <h5 class="sidebar-text">Other plants</h5>
                         </div>
                         <div class="sidebar-mini-products">
                             <div class="mini-products">
@@ -316,25 +329,30 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="banner-questions">
-                <img src="img/hero-banner/chatt.png" class="banner">
-                <div class="bg-overlay"></div>
+        <div class="banner-questions">
+            <div class="container">
+                <!-- <img src="img/hero-banner/chatt.png" class="banner">
+                <div class="bg-overlay"></div> -->
                 <div class="row">
                     <div class="col-lg-8 col-md-8 text-questions">
                         <h3>Questions about our plants ?</h3>
                         <p>Don't hesitate to ask about this plant, contact us now!</p>
                     </div>
                     <div class="col-lg-4 col-md-4 whatsapp-questions">
-                        <a class="wa-questions" href="#">
+                        <!-- <a class="wa-questions" href="#">
                             <img src="img/image/Whatsapp.png" class="wa-img">
                             <span>WhatsApp</span>
-                        </a>
+                        </a> -->
+                        <button class="btn btn-custom">
+                            <img src="img/image/Whatsapp.png" class="wa-img">
+                            <span>WhatsApp</span>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <footer class="stinky-footer">
         <div class="container">
             <div class="row">
