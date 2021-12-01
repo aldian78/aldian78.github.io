@@ -208,6 +208,10 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 767.98px) {
+    .header-atas .text {
+        margin: 2px 0;
+    }
+
     .items-wrapper .img-hero-wrapper img {
         margin-top: 50px;
         width: 100%;
@@ -259,7 +263,7 @@
     }
 
     .items-wrapper .banner-questions .whatsapp-questions {
-        margin-top: 25px;
+        margin-top: 20px;
     }
 
     .stinky-footer .footer-one .icon-footer {
@@ -375,7 +379,6 @@
 
     .header-atas .text {
         font-size: 0.875rem;
-        margin: 2px 0;
     }
 
     .navbar-light .navbar-nav {
