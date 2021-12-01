@@ -476,6 +476,7 @@ body {
 /* FOOTER */
 .stinky-footer {
     position: sticky;
+    display: block;
     top: 100%;
     bottom: 0;
     background-color: #10AC84;
