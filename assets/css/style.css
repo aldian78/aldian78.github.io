@@ -4,6 +4,8 @@ html {
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
@@ -1521,7 +1523,9 @@ body {
 .items-wrapper .about {
     position: relative;
     margin-top: 90px;
+    /* untuk menghilangkan space jika body 100vh dan konten lebih kecil dari 100vh */
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
 }
 
