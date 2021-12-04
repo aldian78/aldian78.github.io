@@ -1307,7 +1307,7 @@ body {
     font-family: "Poppins";
     font-weight: 400;
     font-size: 1rem;
-    margin-top: 13px;
+    margin-top: 8px;
     text-align: center;
 }
 
@@ -1405,6 +1405,117 @@ body {
 }
 
 /* END CART */
+
+/* INVOICE */
+.items-wrapper .invoice-wrapper {
+    position: relative;
+    margin-top: 80px;
+}
+
+.items-wrapper .invoice-wrapper .title-invoice {
+    font-family: "Poppins";
+    font-size: 500;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.items-wrapper .invoice-wrapper .invoice-top {
+    border: 1px solid #109C78;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.items-wrapper .invoice-wrapper .invoice-top h5 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #109C78;
+}
+
+.items-wrapper .invoice-wrapper .invoice-top p {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.items-wrapper .invoice-wrapper .invoice-details {
+    border: 1px solid #109C78;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.items-wrapper .invoice-wrapper .invoice-details thead>tr>th {
+    background-color: #10AC84;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.items-wrapper .invoice-wrapper .invoice-details tbody>tr>td {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 0.938rem;
+    padding: 10px 15px;
+}
+
+.items-wrapper .invoice-wrapper .invoice-details tbody>tr .total-invoice {
+    font-weight: 700;
+}
+
+.items-wrapper .invoice-wrapper .invoice-details tfoot>tr>td {
+    padding: 10px 15px;
+    font-weight: 700;
+    border-top: 1px solid #10AC84;
+}
+
+/* END INVOICE */
+
+/* HOW TO ORDER */
+.items-wrapper .order-wrapper {
+    position: relative;
+    margin-top: 90px;
+}
+
+.items-wrapper .order-wrapper .order {
+    border: 1px solid #109C78;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.items-wrapper .order-wrapper .order .img-order {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.items-wrapper .order-wrapper .order .title-order {
+    margin-top: 20px;
+}
+
+.items-wrapper .order-wrapper .order .title-order h4 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #109C78;
+    text-align: center;
+}
+
+.items-wrapper .order-wrapper .order .sub-order {
+    margin-top: 15px;
+}
+
+.items-wrapper .order-wrapper .order .sub-order p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* END HOW TO ORDER */
 
 /* ABOUT */
 .items-wrapper .about {

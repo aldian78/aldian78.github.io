@@ -186,6 +186,32 @@
 
     /* END ABOUT */
 
+    /* HOW TO ORDER */
+    .items-wrapper .order-wrapper {
+        margin-top: 70px;
+    }
+
+    /* END HOW TO ORDER */
+
+    /* INVOICE */
+    .items-wrapper .invoice-wrapper {
+        margin-top: 50px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-top p {
+        font-size: 0.875rem;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details tbody>tr>td {
+        font-size: 0.813rem;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details tfoot>tr>td {
+        font-size: 0.813rem;
+    }
+
+    /* END INVOICE */
+
     /* PAGE CART */
 
     .items-wrapper .cart-page .items-cart .bottom-cart {
@@ -208,10 +234,15 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 767.98px) {
+
+    /* HEADER ATAS */
     .header-atas .text {
         margin: 2px 0;
     }
 
+    /* END HEADER ATAS */
+
+    /* HERO BANNER  */
     .items-wrapper .img-hero-wrapper img {
         margin-top: 50px;
         width: 100%;
@@ -242,6 +273,9 @@
         margin-bottom: 50px;
     }
 
+    /* END HERO BANNER */
+
+    /* CATEGORIES */
     .slick-prev {
         margin-top: 10px;
     }
@@ -250,6 +284,9 @@
         margin-top: 10px;
     }
 
+    /* END CATEGORIES */
+
+    /* BANNER QUESTIONS */
     .items-wrapper .banner-questions {
         height: 150px;
     }
@@ -266,6 +303,9 @@
         margin-top: 20px;
     }
 
+    /* END BANNER QUESTIONS */
+
+    /* FOOTER */
     .stinky-footer .footer-one .icon-footer {
         margin-bottom: 20px;
     }
@@ -284,6 +324,9 @@
         height: auto;
     }
 
+    /* END FOOTER */
+
+    /* PRODUCTS */
     .items-wrapper .products .filters {
         margin-top: 40px;
     }
@@ -303,6 +346,8 @@
     .items-wrapper .sidebar-products .sidebar-mini-products a {
         font-size: 0.75rem;
     }
+
+    /* END PRODUCT */
 
     /* PRODUCT DETAIL */
     .items-wrapper .details-products {
@@ -329,6 +374,52 @@
     }
 
     /* END ABOUT */
+
+    /* HOW TO ORDER */
+    .items-wrapper .order-wrapper .order {
+        padding: 15px;
+    }
+
+    .items-wrapper .order-wrapper .order .title-order {
+        margin-top: 25px;
+    }
+
+    .items-wrapper .order-wrapper .order .title-order h4 {
+        text-align: left;
+    }
+
+    .items-wrapper .order-wrapper .order .sub-order p {
+        font-size: 0.875rem;
+    }
+
+    /* END HOW TO ORDER */
+
+    /* INVOICE */
+    .items-wrapper .invoice-wrapper .title-invoice {
+        font-size: 1.25rem;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-top {
+        padding: 20px 20px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-top p {
+        font-size: 0.938rem;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details thead>tr>th {
+        padding: 10px 20px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details tbody>tr>td {
+        padding: 10px 20px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details tfoot>tr>td {
+        padding: 10px 20px;
+    }
+
+    /* END INVOICE */
 
     /* CART */
     .items-wrapper .cart-page {
@@ -371,6 +462,8 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) {
+
+    /* HEADER ATAS */
     .header-atas {
         background-color: #10AC84;
         max-width: 100%;
@@ -381,6 +474,9 @@
         font-size: 0.875rem;
     }
 
+    /* END HEADER ATAS */
+
+    /* NAVBAR */
     .navbar-light .navbar-nav {
         margin-top: 15px;
     }
@@ -409,6 +505,9 @@
         margin: 0;
     }
 
+    /* END NAVBAR */
+
+    /* HERO BANNER */
     .items-wrapper .img-hero-wrapper img {
         margin-top: 40px;
         width: 70%;
@@ -429,6 +528,9 @@
         font-size: 0.75rem;
     }
 
+    /* END HERO BANNER */
+
+    /* CATEGORIES */
     .slick-prev {
         margin-left: 11px;
         margin-top: 9px;
@@ -439,6 +541,9 @@
         margin-top: 10px;
     }
 
+    /* END CATEGORIES */
+
+    /* BANNER QUESTIONS */
     .items-wrapper .banner-questions .text-questions h3 {
         font-size: 1.375rem;
     }
@@ -447,6 +552,9 @@
         font-size: 1.125rem;
     }
 
+    /* END BANNER QUESTIONS */
+
+    /* FOOTER */
     .stinky-footer .footer-one .img-footer {
         margin-left: -10px;
     }
@@ -480,6 +588,9 @@
         font-size: 1.25rem;
     }
 
+    /* END FOOTER */
+
+    /* PRODUCTS */
     .items-wrapper .products .filters {
         margin-top: 67px;
     }
@@ -488,6 +599,9 @@
         margin-top: 45px;
     }
 
+    /* END PRODUCTS */
+
+    /* PRODUCTS DETAIL */
     .items-wrapper .details-products {
         margin-top: 75px;
     }
@@ -508,6 +622,9 @@
         padding: 10px 6px;
     }
 
+    /* END PRODUCTS DETAIL */
+
+    /* CART */
     .items-wrapper .cart-page .items-cart .sub-cart h4 {
         margin-top: 20px;
     }
@@ -515,18 +632,72 @@
     .items-wrapper .cart-page .items-cart .bottom-cart {
         margin-top: 20px;
     }
+
+    /* END CART */
+
+    /* HOW TO ORDER */
+    .items-wrapper .order-wrapper .order {
+        padding: 20px;
+    }
+
+    .items-wrapper .order-wrapper .order .title-order {
+        margin-top: 50px;
+    }
+
+    .items-wrapper .order-wrapper .order .title-order h4 {
+        font-size: 1.25rem;
+        text-align: left;
+    }
+
+    .items-wrapper .order-wrapper .order .sub-order {
+        margin-top: 20px;
+    }
+
+    .items-wrapper .order-wrapper .order .sub-order p {
+        font-size: 1rem;
+    }
+
+    /* HOW TO ORDER */
+
+    /* INVOICE */
+    .items-wrapper .invoice-wrapper .title-invoice {
+        font-size: 1.25rem;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-top {
+        padding: 20px 25px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-top p {
+        font-size: 1rem;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details thead>tr>th {
+        padding: 10px 25px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details tbody>tr>td {
+        padding: 10px 25px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details tfoot>tr>td {
+        padding: 10px 25px;
+    }
+
+    /* END INVOICE */
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 1199.98px) {
+
+    /* HEADER ATAS */
     .header-atas .text {
         font-size: 1rem;
     }
 
-    .navbar-light .nav-item .menu-navbar {
-        font-size: 1.125rem;
-    }
+    /* END HEADER ATAS */
 
+    /* HERO BANNER */
     .items-wrapper .img-hero-wrapper img {
         width: 70%;
     }
@@ -542,11 +713,13 @@
         margin-bottom: 30px;
     }
 
-
     .items-wrapper .section-info .section {
-        margin-top: 35px;
+        margin-top: 10px;
     }
 
+    /* END HERO BANNER */
+
+    /* PRODUCTS */
     .items-wrapper .products .card .card-body .card-title {
         font-size: 1.125rem;
     }
@@ -559,6 +732,9 @@
         margin-top: 30px;
     }
 
+    /* END PRODUCTS */
+
+    /* BANNER QUESTIONS */
     .items-wrapper .banner-questions {
         width: 100%;
         height: 180px;
@@ -585,6 +761,9 @@
         margin-top: 35px;
     }
 
+    /* END BANNER QUESTIONS */
+
+    /* CART */
     .items-wrapper .cart-page .items-cart .sub-cart h4 {
         margin-top: 40px;
     }
@@ -593,6 +772,60 @@
         margin-top: 40px;
     }
 
+    /* END CART */
+
+    /* HOW TO ORDER */
+    .items-wrapper .order-wrapper .order {
+        padding: 20px;
+    }
+
+    .items-wrapper .order-wrapper .order .title-order {
+        margin-top: 15%;
+    }
+
+    .items-wrapper .order-wrapper .order .title-order h4 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .items-wrapper .order-wrapper .order .sub-order {
+        margin-top: 20px;
+    }
+
+    .items-wrapper .order-wrapper .order .sub-order p {
+        font-size: 1.125rem;
+    }
+
+    /* HOW TO ORDER */
+
+    /* INVOICE */
+    .items-wrapper .invoice-wrapper .title-invoice {
+        font-size: 1.25rem;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-top {
+        padding: 20px 25px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-top p {
+        font-size: 1rem;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details thead>tr>th {
+        padding: 10px 25px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details tbody>tr>td {
+        padding: 10px 25px;
+    }
+
+    .items-wrapper .invoice-wrapper .invoice-details tfoot>tr>td {
+        padding: 10px 25px;
+    }
+
+    /* END INVOICE */
+
+    /* CONTACT */
     .items-wrapper .contact .items-contact h4 {
         font-size: 1.188rem;
     }
@@ -601,6 +834,7 @@
         font-size: 1.063rem;
     }
 
+    /* END CONTACT */
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
