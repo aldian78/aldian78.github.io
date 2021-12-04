@@ -1524,9 +1524,10 @@ body {
     position: relative;
     margin-top: 90px;
     /* untuk menghilangkan space jika body 100vh dan konten lebih kecil dari 100vh */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex-grow: 1; */
+    bottom: 0;
 }
 
 .items-wrapper .about .img-about {
