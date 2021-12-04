@@ -1521,7 +1521,7 @@ body {
 .items-wrapper .about {
     position: relative;
     margin-top: 90px;
-    flex-grow: 1;
+    display: flex;
 }
 
 .items-wrapper .about .img-about {
