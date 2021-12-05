@@ -1035,7 +1035,7 @@ body {
 
 .items-wrapper .details-products .button-details .input-quantity {
     width: 50px;
-    height: 40px;
+    height: auto;
     border: none;
     text-align: center;
     font-size: 1.125rem;
