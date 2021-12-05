@@ -1026,16 +1026,14 @@ body {
     display: flex;
 }
 
-.items-wrapper .details-products .button-details .input-group {
+.items-wrapper .details-products .button-details .quantity {
     border: 2px solid #10AC84;
-    border-radius: 3px;
-    width: auto;
-    min-width: 0;
+    border-radius: 4px;
 }
 
 .items-wrapper .details-products .button-details .input-quantity {
     width: 50px;
-    height: auto;
+    height: 40px;
     border: none;
     text-align: center;
     font-size: 1.125rem;
