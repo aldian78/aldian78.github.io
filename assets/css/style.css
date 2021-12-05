@@ -1026,9 +1026,11 @@ body {
     display: flex;
 }
 
-.items-wrapper .details-products .button-details .quantity {
+.items-wrapper .details-products .button-details .input-group {
     border: 2px solid #10AC84;
     border-radius: 3px;
+    width: auto;
+    min-width: 0;
 }
 
 .items-wrapper .details-products .button-details .input-quantity {
