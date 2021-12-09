@@ -48,14 +48,35 @@
         <nav class="navbar navbar-expand-lg navbar-light navbar-wrapper">
             <div class="container">
                 <img class="img-navbar" src="img/image/logo-anisa.png" alt="anisaflora">
-                <!-- <a class="title-nav" href="#">Anisaflora</a> -->
+                <!-- icon-user tampil di mode mobile -->
+                <li class="nav-item dropdown mode-mobile">
+                    <img src="img/image/profile.png" alt="" class="nav-link dropdown-toggle img-user-mobile" href="#"
+                        id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="account.html">Profile</a></li>
+                        <li><a class="dropdown-item" href="invoice.html">Riwayat Pesanan</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <span>
+                                    <i class="fas fa-sign-out-alt">
+                                    </i>
+                                </span>
+                                Keluar
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- end icon user mobile -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2">
+                    <ul class="navbar-nav ms-auto">
                         <!--me-auto ganti ms-auto (margin-start) untuk space between -->
                         <li class="nav-item">
                             <a class="menu-navbar active" href="index.html">Home</a>
@@ -71,6 +92,26 @@
                         </li>
                         <li class="nav-item">
                             <a class="menu-navbar" href="contact.html">Contacts Us</a>
+                        </li>
+                        <li class="nav-item dropdown mode-desktop">
+                            <img src="img/image/profile.png" alt="" class="nav-link dropdown-toggle img-user" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="account.html">Profile</a></li>
+                                <li><a class="dropdown-item" href="invoice.html">Riwayat Pesanan</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <span>
+                                            <i class="fas fa-sign-out-alt">
+                                            </i>
+                                        </span>
+                                        Keluar
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -97,7 +138,7 @@
                                 <span>
                                     <i class="fas fa-long-arrow-alt-right"></i>
                                 </span>
-                                <a href="#" class="text-button">Go to Shopping</a>
+                                <a href="login.html" class="text-button">Go to Shopping</a>
                             </button>
                         </div>
                     </div>
@@ -372,12 +413,12 @@
             <div class="container">
                 <div class="col-lg-12">
                     <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="card">
                                 <img src="img/image/events1.png" alt="" class="card-img-top">
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="card">
                                 <img src="img/image/events2.png" alt="" class="card-img-top">
                             </div>

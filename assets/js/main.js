@@ -31,3 +31,24 @@ function topFunction() {
     }, '300');
 };
 // END PAGE TO TOP
+
+// EYES FORM CONTROL PASSWORD
+
+function ShowHidePassword() {
+    const password = document.querySelector('#inputPassword');
+    const Konfirmasipassword = document.querySelector('#inputKonfirmasiPassword');
+
+    const getType = password.getAttribute('type');
+    if (getType === "password") {
+        password.setAttribute("type", "text");
+        if (Konfirmasipassword !== null) {
+            Konfirmasipassword.setAttribute("type", "text");
+        }
+    } else {
+        password.setAttribute("type", "password");
+        if (Konfirmasipassword !== null) {
+            Konfirmasipassword.setAttribute("type", "password");
+        }
+    }
+}
+// END EYES FORM CONTROL PASSWORD
