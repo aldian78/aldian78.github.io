@@ -1895,6 +1895,7 @@ body {
 
 /* END ACCOUNT PROFILE */
 
+/* CUSTOM MODAL */
 .modal-header {
     background-image: url('../../img/hero-banner/banner-about.png');
     background-repeat: no-repeat;
@@ -1914,3 +1915,5 @@ body {
 .modal-header .modal-title {
     color: #fff;
 }
+
+/* END CUSTOM MODAL */
