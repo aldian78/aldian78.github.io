@@ -1916,4 +1916,14 @@ body {
     color: #fff;
 }
 
+.custom-href {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.4s;
+}
+
+.custom-href:hover {
+    color: #000000;
+}
+
 /* END CUSTOM MODAL */
