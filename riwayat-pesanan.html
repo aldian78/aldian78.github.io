@@ -20,6 +20,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300&family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendor/datatables/datatables.min.css" />
 
     <!-- <link rel="stylesheet" href="assets/css/Newstyle.css">
     <link rel="stylesheet" href="assets/css/responsive.css"> -->
@@ -124,75 +125,125 @@
         <div class="container">
             <div class="invoice-wrapper">
                 <h4 class="title-invoice text-start">Riwayat Invoice</h4>
-                <div class="invoice-details">
-                    <!-- <table class="table table-borderless mb-0">
+                <div class="order history mt-4">
+                    <table id="example" class="stripe row-border" style="width:100%">
                         <thead>
                             <tr>
-                                <th class="col-lg-3 col-md-8 col-sm-7 col-7">No</th>
-                                <th class="col-lg-3 col-md-4 col-sm-5 col-5">Invoice</th>
-                                <th class="col-lg-3 col-md-4 col-sm-5 col-5">Qty</th>
-                                <th class="col-lg-3 col-md-4 col-sm-5 col-5">Aksi</th>
+                                <th>No</th>
+                                <th>Kode Invoive</th>
+                                <th>Tanggal</th>
+                                <th>Qty</th>
+                                <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>#INV111220210001</td>
+                                <td>#INV121220210001</td>
+                                <td>12 Desember 2021</td>
+                                <td>6 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>#INV121220210002</td>
+                                <td>12 Desember 2021</td>
+                                <td>2 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>#INV121220210003</td>
+                                <td>12 Desember 2021</td>
+                                <td>2 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>#INV121220210004</td>
+                                <td>12 Desember 2021</td>
+                                <td>5 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
                                 <td>5</td>
-                                <td>Lihat Detail</td>
+                                <td>#INV131220210005</td>
+                                <td>13 Desember 2021</td>
+                                <td>3 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
                             </tr>
                             <tr>
-                                <td>Aglaonema Dud White Aceh Plants X 1</td>
-                                <td>Rp. 150.000,-</td>
+                                <td>6</td>
+                                <td>#INV131220210006</td>
+                                <td>13 Desember 2021</td>
+                                <td>1 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
                             </tr>
                             <tr>
-                                <td class="total-invoice">Subtotal</td>
-                                <td>Rp. 400.000,-</td>
+                                <td>7</td>
+                                <td>#INV131220210007</td>
+                                <td>13 Desember 2021</td>
+                                <td>3 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
                             </tr>
                             <tr>
-                                <td class="total-invoice">Ongkos Kirim</td>
-                                <td>Rp. 15.000,-</td>
+                                <td>8</td>
+                                <td>#INV151220210008</td>
+                                <td>15 Desember 2021</td>
+                                <td>2 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>#INV151220210009</td>
+                                <td>15 Desember 2021</td>
+                                <td>4 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>#INV171220210010</td>
+                                <td>17 Desember 2021</td>
+                                <td>2 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>#INV171220210011</td>
+                                <td>17 Desember 2021</td>
+                                <td>1 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>#INV171220210012</td>
+                                <td>17 Desember 2021</td>
+                                <td>4 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            <tr>
+                                <td>13</td>
+                                <td>#INV201220210013</td>
+                                <td>20 Desember 2021</td>
+                                <td>5 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>#INV201220210014</td>
+                                <td>20 Desember 2021</td>
+                                <td>2 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>#INV201220210015</td>
+                                <td>20 Desember 2021</td>
+                                <td>4 Produk</td>
+                                <td><a href="invoice.html" class="custom-href">Lihat Detail</a></td>
                             </tr>
                         </tbody>
                         <tfoot>
-                            <tr>
-                                <td>Total</td>
-                                <td>Rp. 415.000,-</td>
-                            </tr>
-                        </tfoot>
-                    </table> -->
-                    <div class="table-responsive">
-                        <table class="table table-striped table-hover">
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Invoice</th>
-                                    <th scope="col">Tanggal</th>
-                                    <th scope="col">Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th>1</th>
-                                    <td>#INV111220210001</td>
-                                    <td>11-Des-2021</td>
-                                    <td><a class="custom-href" href="invoice.html">Lihat Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <th>2</th>
-                                    <td>#INV111220210002</td>
-                                    <td>15-Des-2021</td>
-                                    <td><a class="custom-href" href="invoice.html">Lihat Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <th>3</th>
-                                    <td>#INV111220210003</td>
-                                    <td>20-Des-2021</td>
-                                    <td><a class="custom-href" href="invoice.html">Lihat Detail</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    </table>
                 </div>
             </div>
         </div>
@@ -329,7 +380,18 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 </script>
+<script type="text/javascript" src="vendor/datatables/datatables.min.js"></script>
 
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        var table = $('#example').DataTable({
+            responsive: true,
+            "language": {
+                "emptyTable": 'Tidak ada produk didalam wishlist',
+            }
+        });
+    });
+</script>
 
 </html>

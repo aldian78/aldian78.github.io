@@ -1918,12 +1918,51 @@ body {
 
 .custom-href {
     text-decoration: none;
-    color: #000000;
+    color: #10AC84;
     transition: 0.4s;
 }
 
 .custom-href:hover {
-    color: #000000;
+    color: #0d8063;
 }
 
 /* END CUSTOM MODAL */
+
+/* CUSTOM DATATABLES */
+table.dataTable thead th {
+    border-bottom: 1px solid #10AC84;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 1px solid #10AC84;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff !important;
+    border: 1px solid transparent;
+    background: #10AC84;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #10AC84 !important;
+    border: 1px solid #10AC84;
+    background: #fff;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #10AC84 !important;
+    border: 1px solid #10AC84;
+    background: #fff;
+    box-shadow: none;
+}
+
+.dataTables_wrapper .dataTables_filter input:focus {
+    outline: none;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    outline: none;
+}
+
+/* END CUSTOM DATATABLES */
